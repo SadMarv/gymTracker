@@ -1,0 +1,7 @@
+{
+  "name": "gymTracker",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
