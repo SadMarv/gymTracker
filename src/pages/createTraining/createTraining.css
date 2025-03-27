@@ -1,0 +1,82 @@
+.error {
+    color: var(--ion-color-danger);
+    font-size: 0.8rem;
+    margin-left: 16px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  ion-range {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  /* Rounded borders for inputs */
+  ion-item {
+    --border-radius: 8px;
+    --background: var(--ion-color-light);
+    --border-color: var(--ion-color-light);
+    margin: 8px 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  ion-input, ion-textarea {
+    --padding-start: 12px !important;
+    --padding-end: 12px !important;
+    border-radius: 5px;
+    border: 1px solid var(--ion-color-primary-contrast);
+  }
+
+  .custom-select-exercise-type {
+    --background: transparent;
+    --border-radius: 8px;
+    --padding-start: 12px;
+    --padding-end: 12px;
+  }
+
+  .input-label {
+    display: flex;
+    width: 100%;
+    font-size:  var(--ion-font-size-large) !important;
+    font-weight: 500;
+    color: var(--ion-color-dark);
+    padding-bottom: 16px;
+    --border-color: var(--ion-color-light);
+
+    &.text-25 {
+      font-size: 25px !important;
+    }
+  }
+
+  .exercise-form {
+    background: var(--ion-color-light);
+    border-radius: 12px;
+    padding: 16px;
+    margin: 16px 0;
+  }
+
+  .keyboard-is-open ion-content {
+    --keyboard-offset: 0px !important;
+  }
+
+  /* Ensure content is always scrollable */
+  ion-content {
+    --overflow: auto;
+  }
+
+  /* Add padding to bottom to ensure last input is visible */
+  ion-content .ion-padding {
+    padding-bottom: 150px !important;
+  }
+
+  /* Android specific adjustments */
+  .md ion-item {
+    --padding-bottom: 8px;
+  }

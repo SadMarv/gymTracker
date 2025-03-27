@@ -1,0 +1,7 @@
+@import './theme/variables.css';
+
+/* Custom styles */
+ion-page {
+  padding-top: 25px !important;
+}
+

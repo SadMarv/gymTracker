@@ -1,2 +1,31 @@
 /* For information on how to create your own theme, please see:
 http://ionicframework.com/docs/theming/ */
+
+:root {
+    --ion-font-size-large: 20px;
+    --ion-font-size-base: 18px;
+    --ion-font-size-small: 16px;
+    --ion-font-family: 'Montserrat', 'Roboto', sans-serif;
+    --border-color: transparent;
+    padding-top: 25px !important;
+
+}
+
+
+.light-text {
+    font-weight: 300;
+}
+.regular-text {
+    font-weight: 400;
+}
+.medium-text {
+    font-weight: 500;
+}
+.semibold-text {
+    font-weight: 600;
+}
+.bold-text {
+    font-weight: 700;
+}
+
+    
